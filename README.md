@@ -22,6 +22,9 @@ Add to your `Cargo.toml`:
 [dependencies]
 pofk_algorithm = "0.0.1"
 ```
+## 🚀 Quick start
+```rust
+
 use pofk_algorithm::*;
 
 use pofk_algorithm::{
@@ -51,7 +54,7 @@ fn main() {
 
     println!("{:?}", (idx, sorted, is_pal, lcp, dist));
 }
-
+```
 
 
 ---
