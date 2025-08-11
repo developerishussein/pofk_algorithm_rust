@@ -100,7 +100,7 @@ Each function includes Dartdoc with usage and time/space complexity.
 
 ## 📚 Usage notes
 
-- Import everything via use pofk_algorithm::*;
+- Import everything via use `pofk_algorithm::*;`
 - Sorting/searching functions use `T extends Comparable` where appropriate.
 - Weighted graph utilities use `WeightedEdge<T>`.
 - Algorithms are pure and side-effect free unless documented otherwise.
