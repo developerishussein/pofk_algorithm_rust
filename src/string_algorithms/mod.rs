@@ -1,0 +1,10 @@
+pub mod count_vowels_consonants;
+pub mod edit_distance;
+pub mod longest_common_prefix;
+pub mod rabin_karp;
+pub mod substring_search;
+pub mod string_compression;
+pub mod longest_palindromic_substring;
+pub mod anagram_check;
+pub mod palindrome_check;
+pub mod reverse_string;
