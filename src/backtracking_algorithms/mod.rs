@@ -1,0 +1,9 @@
+pub mod n_queens;
+pub mod sudoku_solver;
+pub mod subset_generation;
+pub mod permutations;
+pub mod word_search;
+pub mod combinations;
+pub mod combination_sum;
+pub mod letter_combinations_phone_number;
+pub mod rat_in_a_maze;
