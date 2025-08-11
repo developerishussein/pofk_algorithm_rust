@@ -1,6 +1,6 @@
 [package]
 name = "pofk_algorithm"
-version = "0.0.2"
+version = "0.0.3"
 edition = "2024"
 authors = ["POFKLabs <pofklabs@gmail.com>"]
 description = "A collection of efficient algorithms implemented in Rust for real-world projects."
@@ -9,7 +9,7 @@ readme = "README.md"
 repository = "https://github.com/POFKLabs/pofk_algorithm_rust"
 keywords = ["algorithms", "data-structures", "rust", "library"]
 categories = ["algorithms", "data-structures"]
-documentation = "https://docs.rs/pofk_algorithm_rust"
+documentation = "https://docs.rs/pofk_algorithm"
 homepage = "https://pofklabs.vercel.app"
 
 [dependencies]
