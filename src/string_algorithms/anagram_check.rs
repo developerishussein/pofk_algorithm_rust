@@ -11,7 +11,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::string_algorithms::anagram_check::anagram_check;
+//! use pofk_algorithm::string_algorithms::anagram_check::anagram_check;
 //! assert!(anagram_check("listen", "silent"));
 //! assert!(!anagram_check("hello", "world"));
 //! assert!(anagram_check("a😊b", "b😊a"));

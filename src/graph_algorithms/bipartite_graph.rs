@@ -14,7 +14,7 @@
 //! # Example
 //! ```rust
 //! use std::collections::HashMap;
-//! use pofk_algorithms::graph_algorithms::bipartite_graph::is_bipartite;
+//! use pofk_algorithm::graph_algorithms::bipartite_graph::is_bipartite;
 //! let mut graph = HashMap::new();
 //! graph.insert(1, vec![2, 3]);
 //! graph.insert(2, vec![1, 4]);

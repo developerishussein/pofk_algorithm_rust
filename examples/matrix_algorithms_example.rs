@@ -1,5 +1,5 @@
 //! Example usage of matrix/grid algorithms
-use pofk_algorithms::matrix_algorithms::*;
+use pofk_algorithm::matrix_algorithms::*;
 
 fn main() {
     // Flood Fill

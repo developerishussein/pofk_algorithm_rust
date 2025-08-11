@@ -1,8 +1,8 @@
-//! Example usage of advanced string algorithms from the pofk_algorithms library.
+//! Example usage of advanced string algorithms from the pofk_algorithm library.
 //!
 //! This file demonstrates how to use each string algorithm with idiomatic, production-grade Rust code.
 
-use pofk_algorithms::string_algorithms::{
+use pofk_algorithm::string_algorithms::{
     reverse_string::reverse_string,
     palindrome_check::palindrome_check,
     anagram_check::anagram_check,

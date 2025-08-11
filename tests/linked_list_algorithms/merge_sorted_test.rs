@@ -1,6 +1,6 @@
 // Tests for Merge Two Sorted Lists
-use pofk_algorithms::linked_list_algorithms::singly_linked_list::*;
-use pofk_algorithms::linked_list_algorithms::merge_sorted::merge_sorted;
+use pofk_algorithm::linked_list_algorithms::singly_linked_list::*;
+use pofk_algorithm::linked_list_algorithms::merge_sorted::merge_sorted;
 
 #[test]
 fn test_merge_sorted() {

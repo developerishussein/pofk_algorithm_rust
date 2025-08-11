@@ -13,7 +13,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::frequency_count::frequency_count;
+//! use pofk_algorithm::set_algorithms::frequency_count::frequency_count;
 //! let arr = [1, 2, 2, 3, 1, 4];
 //! let freq = frequency_count(&arr);
 //! assert_eq!(freq.get(&1), Some(&2));

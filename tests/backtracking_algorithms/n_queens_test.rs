@@ -1,4 +1,4 @@
-use pofk_algorithms::backtracking_algorithms::n_queens::n_queens;
+use pofk_algorithm::backtracking_algorithms::n_queens::n_queens;
 
 #[test]
 fn test_n_queens_large() {

@@ -1,6 +1,6 @@
 // Tests for Insert and Delete at Position
-use pofk_algorithms::linked_list_algorithms::singly_linked_list::*;
-use pofk_algorithms::linked_list_algorithms::insert_delete::*;
+use pofk_algorithm::linked_list_algorithms::singly_linked_list::*;
+use pofk_algorithm::linked_list_algorithms::insert_delete::*;
 
 #[test]
 fn test_insert_delete() {

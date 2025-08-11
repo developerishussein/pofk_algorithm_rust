@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::dp_algorithms::house_robber::*;
+//! use pofk_algorithm::dp_algorithms::house_robber::*;
 //! let nums = vec![1,2,3,1];
 //! assert_eq!(house_robber(&nums), 4);
 //! ```

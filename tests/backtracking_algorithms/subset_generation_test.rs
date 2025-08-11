@@ -1,4 +1,4 @@
-use pofk_algorithms::backtracking_algorithms::subset_generation::subset_generation;
+use pofk_algorithm::backtracking_algorithms::subset_generation::subset_generation;
 
 #[test]
 fn test_subset_generation_large() {

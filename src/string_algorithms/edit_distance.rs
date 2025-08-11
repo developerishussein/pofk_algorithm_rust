@@ -11,7 +11,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::string_algorithms::edit_distance::edit_distance;
+//! use pofk_algorithm::string_algorithms::edit_distance::edit_distance;
 //! assert_eq!(edit_distance("kitten", "sitting"), 3);
 //! assert_eq!(edit_distance("flaw", "lawn"), 2);
 //! assert_eq!(edit_distance("", "abc"), 3);

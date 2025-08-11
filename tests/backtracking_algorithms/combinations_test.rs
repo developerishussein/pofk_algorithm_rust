@@ -1,4 +1,4 @@
-use pofk_algorithms::backtracking_algorithms::combinations::combinations;
+use pofk_algorithm::backtracking_algorithms::combinations::combinations;
 
 #[test]
 fn test_combinations_large() {

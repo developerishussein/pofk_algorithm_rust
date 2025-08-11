@@ -1,4 +1,4 @@
-use pofk_algorithms::dp_algorithms::longest_increasing_subsequence::longest_increasing_subsequence;
+use pofk_algorithm::dp_algorithms::longest_increasing_subsequence::longest_increasing_subsequence;
 
 #[test]
 fn test_lis_large() {

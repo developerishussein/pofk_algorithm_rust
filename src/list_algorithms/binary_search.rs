@@ -14,7 +14,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::list_algorithms::binary_search::binary_search;
+//! use pofk_algorithm::list_algorithms::binary_search::binary_search;
 //! let idx = binary_search(&[1, 3, 5, 7, 9], &7);
 //! assert_eq!(idx, Some(3));
 //! ```

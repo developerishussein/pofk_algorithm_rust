@@ -14,7 +14,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::top_k_frequent::top_k_frequent;
+//! use pofk_algorithm::set_algorithms::top_k_frequent::top_k_frequent;
 //! let arr = [1, 1, 1, 2, 2, 3];
 //! let mut top = top_k_frequent(&arr, 2);
 //! top.sort();

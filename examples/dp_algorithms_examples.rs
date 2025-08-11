@@ -1,17 +1,17 @@
 //! Examples for all dp_algorithms
-use pofk_algorithms::dp_algorithms::fibonacci::fibonacci;
-use pofk_algorithms::dp_algorithms::knapsack_01::knapsack_01;
-use pofk_algorithms::dp_algorithms::longest_increasing_subsequence::longest_increasing_subsequence;
-use pofk_algorithms::dp_algorithms::longest_common_subsequence::longest_common_subsequence;
-use pofk_algorithms::dp_algorithms::edit_distance::edit_distance;
-use pofk_algorithms::dp_algorithms::matrix_path_sum::matrix_path_sum;
-use pofk_algorithms::dp_algorithms::coin_change::coin_change;
-use pofk_algorithms::dp_algorithms::subset_sum::subset_sum;
-use pofk_algorithms::dp_algorithms::partition_equal_subset_sum::partition_equal_subset_sum;
-use pofk_algorithms::dp_algorithms::house_robber::house_robber;
-use pofk_algorithms::dp_algorithms::jump_game::jump_game;
-use pofk_algorithms::dp_algorithms::palindromic_substrings::palindromic_substrings;
-use pofk_algorithms::dp_algorithms::rod_cutting::rod_cutting;
+use pofk_algorithm::dp_algorithms::fibonacci::fibonacci;
+use pofk_algorithm::dp_algorithms::knapsack_01::knapsack_01;
+use pofk_algorithm::dp_algorithms::longest_increasing_subsequence::longest_increasing_subsequence;
+use pofk_algorithm::dp_algorithms::longest_common_subsequence::longest_common_subsequence;
+use pofk_algorithm::dp_algorithms::edit_distance::edit_distance;
+use pofk_algorithm::dp_algorithms::matrix_path_sum::matrix_path_sum;
+use pofk_algorithm::dp_algorithms::coin_change::coin_change;
+use pofk_algorithm::dp_algorithms::subset_sum::subset_sum;
+use pofk_algorithm::dp_algorithms::partition_equal_subset_sum::partition_equal_subset_sum;
+use pofk_algorithm::dp_algorithms::house_robber::house_robber;
+use pofk_algorithm::dp_algorithms::jump_game::jump_game;
+use pofk_algorithm::dp_algorithms::palindromic_substrings::palindromic_substrings;
+use pofk_algorithm::dp_algorithms::rod_cutting::rod_cutting;
 
 fn main() {
     // Fibonacci

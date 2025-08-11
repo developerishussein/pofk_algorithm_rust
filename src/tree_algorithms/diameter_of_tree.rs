@@ -7,8 +7,8 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::tree_algorithms::binary_tree_traversal::TreeNode;
-//! use pofk_algorithms::tree_algorithms::diameter_of_tree::*;
+//! use pofk_algorithm::tree_algorithms::binary_tree_traversal::TreeNode;
+//! use pofk_algorithm::tree_algorithms::diameter_of_tree::*;
 //! let root = Some(Box::new(TreeNode::new(1)));
 //! let diameter = diameter_of_tree(&root);
 //! ```

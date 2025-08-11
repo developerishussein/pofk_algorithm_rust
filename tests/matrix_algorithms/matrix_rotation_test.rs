@@ -1,4 +1,4 @@
-use pofk_algorithms::matrix_algorithms::matrix_rotation::*;
+use pofk_algorithm::matrix_algorithms::matrix_rotation::*;
 
 #[test]
 fn test_matrix_rotation() {

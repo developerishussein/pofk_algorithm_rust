@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::backtracking_algorithms::subset_generation::*;
+//! use pofk_algorithm::backtracking_algorithms::subset_generation::*;
 //! let nums = vec![1, 2, 3];
 //! let subsets = subset_generation(&nums);
 //! assert_eq!(subsets.len(), 8);

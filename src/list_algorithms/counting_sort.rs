@@ -10,7 +10,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::list_algorithms::counting_sort::counting_sort;
+//! use pofk_algorithm::list_algorithms::counting_sort::counting_sort;
 //! let mut arr = [4u32, 2, 2, 8, 3, 3, 1];
 //! counting_sort(&mut arr, 8);
 //! assert_eq!(arr, [1, 2, 2, 3, 3, 4, 8]);

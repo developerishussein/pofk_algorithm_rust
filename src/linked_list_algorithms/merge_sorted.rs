@@ -7,8 +7,8 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::linked_list_algorithms::merge_sorted::*;
-//! use pofk_algorithms::linked_list_algorithms::singly_linked_list::ListNode;
+//! use pofk_algorithm::linked_list_algorithms::merge_sorted::*;
+//! use pofk_algorithm::linked_list_algorithms::singly_linked_list::ListNode;
 //! let l1 = Some(Box::new(ListNode::new(1)));
 //! let l2 = Some(Box::new(ListNode::new(2)));
 //! let merged = merge_sorted(l1, l2);

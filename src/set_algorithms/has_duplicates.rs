@@ -13,7 +13,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::has_duplicates::has_duplicates;
+//! use pofk_algorithm::set_algorithms::has_duplicates::has_duplicates;
 //! let arr = [1, 2, 3, 2];
 //! assert!(has_duplicates(&arr));
 //! ```

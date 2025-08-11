@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::graph_algorithms::union_find::UnionFind;
+//! use pofk_algorithm::graph_algorithms::union_find::UnionFind;
 //! let mut uf = UnionFind::new();
 //! uf.add(1);
 //! uf.add(2);

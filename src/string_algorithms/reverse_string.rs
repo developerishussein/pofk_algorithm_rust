@@ -10,7 +10,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::string_algorithms::reverse_string::reverse_string;
+//! use pofk_algorithm::string_algorithms::reverse_string::reverse_string;
 //! assert_eq!(reverse_string("hello"), "olleh");
 //! assert_eq!(reverse_string("a😊b"), "b😊a");
 //! ```

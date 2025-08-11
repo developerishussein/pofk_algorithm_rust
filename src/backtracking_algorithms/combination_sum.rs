@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::backtracking_algorithms::combination_sum::*;
+//! use pofk_algorithm::backtracking_algorithms::combination_sum::*;
 //! let candidates = vec![2,3,6,7];
 //! let target = 7;
 //! let result = combination_sum(&candidates, target);

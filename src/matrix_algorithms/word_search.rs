@@ -4,7 +4,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::matrix_algorithms::word_search::*;
+//! use pofk_algorithm::matrix_algorithms::word_search::*;
 //! let board = vec![vec!['A','B','C','E'], vec!['S','F','C','S'], vec!['A','D','E','E']];
 //! assert!(word_search(&board, "ABCCED"));
 //! assert!(!word_search(&board, "ABCB"));

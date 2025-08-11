@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::dp_algorithms::palindromic_substrings::*;
+//! use pofk_algorithm::dp_algorithms::palindromic_substrings::*;
 //! let s = vec!['a', 'b', 'a'];
 //! assert_eq!(palindromic_substrings(&s), 4);
 //! ```

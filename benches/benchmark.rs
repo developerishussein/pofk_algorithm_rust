@@ -1,9 +1,9 @@
-//! Library-wide benchmarks for pofk_algorithms
+//! Library-wide benchmarks for pofk_algorithm
 //! Run with: `cargo bench`
 
 use criterion::{criterion_group, criterion_main, Criterion};
 use std::hint::black_box;
-use pofk_algorithms::*;
+use pofk_algorithm::*;
 
 fn bench_merge_sort(c: &mut Criterion) {
     let data = (0..10_000).rev().collect::<Vec<_>>();
@@ -55,7 +55,7 @@ fn bench_dijkstra(c: &mut Criterion) {
 }
 
 fn bench_lca(c: &mut Criterion) {
-    use pofk_algorithms::tree_algorithms::binary_tree_traversal::TreeNode;
+    use pofk_algorithm::tree_algorithms::binary_tree_traversal::TreeNode;
     let root = Some(Box::new(TreeNode::new(1)));
     c.bench_function("tree::lowest_common_ancestor", |b| {
         b.iter(|| {
@@ -65,7 +65,7 @@ fn bench_lca(c: &mut Criterion) {
 }
 
 fn bench_reverse_list(c: &mut Criterion) {
-    use pofk_algorithms::linked_list_algorithms::singly_linked_list::ListNode;
+    use pofk_algorithm::linked_list_algorithms::singly_linked_list::ListNode;
     let mut head = Some(Box::new(ListNode::new(1)));
     head.as_mut().unwrap().next = Some(Box::new(ListNode::new(2)));
     c.bench_function("linked_list::reverse_list", |b| {

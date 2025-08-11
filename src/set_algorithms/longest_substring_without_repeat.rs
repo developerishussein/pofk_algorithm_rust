@@ -10,7 +10,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::longest_substring_without_repeat::longest_substring_without_repeat;
+//! use pofk_algorithm::set_algorithms::longest_substring_without_repeat::longest_substring_without_repeat;
 //! assert_eq!(longest_substring_without_repeat("abcabcbb"), 3);
 //! assert_eq!(longest_substring_without_repeat("bbbbb"), 1);
 //! assert_eq!(longest_substring_without_repeat("pwwkew"), 3);

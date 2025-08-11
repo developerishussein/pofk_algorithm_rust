@@ -11,7 +11,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::list_algorithms::rotate_array_right::rotate_array_right;
+//! use pofk_algorithm::list_algorithms::rotate_array_right::rotate_array_right;
 //! let mut arr = [1, 2, 3, 4, 5, 6, 7];
 //! rotate_array_right(&mut arr, 3);
 //! assert_eq!(arr, [5, 6, 7, 1, 2, 3, 4]);

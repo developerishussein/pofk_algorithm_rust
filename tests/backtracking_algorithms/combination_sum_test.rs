@@ -1,4 +1,4 @@
-use pofk_algorithms::backtracking_algorithms::combination_sum::combination_sum;
+use pofk_algorithm::backtracking_algorithms::combination_sum::combination_sum;
 
 #[test]
 fn test_combination_sum_large() {

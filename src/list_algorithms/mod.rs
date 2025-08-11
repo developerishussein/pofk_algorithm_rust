@@ -24,7 +24,7 @@
 //!
 //! # Usage
 //! ```rust
-//! use pofk_algorithms::list_algorithms::linear_search::linear_search;
+//! use pofk_algorithm::list_algorithms::linear_search::linear_search;
 //! let idx = linear_search(&[1, 2, 3], &2);
 //! ```
 

@@ -1,4 +1,4 @@
-use pofk_algorithms::matrix_algorithms::flood_fill::*;
+use pofk_algorithm::matrix_algorithms::flood_fill::*;
 
 #[test]
 fn test_flood_fill_basic() {

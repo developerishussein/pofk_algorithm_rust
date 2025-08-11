@@ -14,7 +14,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::has_unique_window::has_unique_window;
+//! use pofk_algorithm::set_algorithms::has_unique_window::has_unique_window;
 //! let arr = [1, 2, 3, 1, 4, 5];
 //! assert!(has_unique_window(&arr, 3));
 //! assert!(has_unique_window(&arr, 4));

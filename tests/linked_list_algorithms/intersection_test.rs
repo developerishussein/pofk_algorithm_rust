@@ -1,6 +1,6 @@
 // Tests for Intersection of Two Lists
-use pofk_algorithms::linked_list_algorithms::singly_linked_list::*;
-use pofk_algorithms::linked_list_algorithms::intersection::intersection;
+use pofk_algorithm::linked_list_algorithms::singly_linked_list::*;
+use pofk_algorithm::linked_list_algorithms::intersection::intersection;
 
 #[test]
 fn test_intersection() {

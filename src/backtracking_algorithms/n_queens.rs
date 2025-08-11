@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::backtracking_algorithms::n_queens::*;
+//! use pofk_algorithm::backtracking_algorithms::n_queens::*;
 //! let solutions = n_queens(4usize);
 //! assert_eq!(solutions.len(), 2);
 //! ```

@@ -1,4 +1,4 @@
-use pofk_algorithms::matrix_algorithms::spiral_traversal::*;
+use pofk_algorithm::matrix_algorithms::spiral_traversal::*;
 
 #[test]
 fn test_spiral_traversal() {

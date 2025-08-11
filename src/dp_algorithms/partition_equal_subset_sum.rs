@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::dp_algorithms::partition_equal_subset_sum::*;
+//! use pofk_algorithm::dp_algorithms::partition_equal_subset_sum::*;
 //! let nums = vec![1usize, 5, 11, 5];
 //! assert!(partition_equal_subset_sum(&nums));
 //! ```

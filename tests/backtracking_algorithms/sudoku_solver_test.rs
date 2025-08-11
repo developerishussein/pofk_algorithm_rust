@@ -1,4 +1,4 @@
-use pofk_algorithms::backtracking_algorithms::sudoku_solver::solve_sudoku;
+use pofk_algorithm::backtracking_algorithms::sudoku_solver::solve_sudoku;
 
 #[test]
 fn test_sudoku_solver() {

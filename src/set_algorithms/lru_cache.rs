@@ -8,7 +8,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::lru_cache::LruCache;
+//! use pofk_algorithm::set_algorithms::lru_cache::LruCache;
 //! let mut cache = LruCache::new(2);
 //! cache.put(1, "a");
 //! cache.put(2, "b");

@@ -1,4 +1,4 @@
-use pofk_algorithms::backtracking_algorithms::word_search::word_search;
+use pofk_algorithm::backtracking_algorithms::word_search::word_search;
 
 #[test]
 fn test_word_search_large() {

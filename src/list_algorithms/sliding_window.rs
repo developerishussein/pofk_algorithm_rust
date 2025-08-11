@@ -14,7 +14,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::list_algorithms::sliding_window::sliding_window_max_sum;
+//! use pofk_algorithm::list_algorithms::sliding_window::sliding_window_max_sum;
 //! let arr = [2, 1, 5, 1, 3, 2];
 //! assert_eq!(sliding_window_max_sum(&arr, 3), Some(9));
 //! ```

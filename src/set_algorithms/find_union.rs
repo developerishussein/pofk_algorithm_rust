@@ -13,7 +13,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::find_union::find_union;
+//! use pofk_algorithm::set_algorithms::find_union::find_union;
 //! let a = [1, 2, 3];
 //! let b = [3, 4, 5];
 //! let union = find_union(&a, &b);

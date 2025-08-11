@@ -1,4 +1,4 @@
-use pofk_algorithms::dp_algorithms::palindromic_substrings::palindromic_substrings;
+use pofk_algorithm::dp_algorithms::palindromic_substrings::palindromic_substrings;
 
 #[test]
 fn test_palindromic_substrings_large() {

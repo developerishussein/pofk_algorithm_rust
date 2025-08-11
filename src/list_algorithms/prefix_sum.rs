@@ -13,7 +13,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::list_algorithms::prefix_sum::prefix_sum;
+//! use pofk_algorithm::list_algorithms::prefix_sum::prefix_sum;
 //! let arr = [1, 2, 3, 4];
 //! let sums = prefix_sum(&arr);
 //! assert_eq!(sums, vec![1, 3, 6, 10]);

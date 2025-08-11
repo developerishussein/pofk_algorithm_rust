@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::matrix_algorithms::flood_fill::*;
+//! use pofk_algorithm::matrix_algorithms::flood_fill::*;
 //! let mut grid = vec![vec![1,1,1], vec![1,1,0], vec![1,0,1]];
 //! flood_fill(&mut grid, 1, 1, 2);
 //! assert_eq!(grid[1][1], 2);

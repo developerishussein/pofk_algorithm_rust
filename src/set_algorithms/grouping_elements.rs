@@ -15,7 +15,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::grouping_elements::grouping_elements;
+//! use pofk_algorithm::set_algorithms::grouping_elements::grouping_elements;
 //! let arr = ["apple", "apricot", "banana", "blueberry"];
 //! let groups = grouping_elements(&arr, |s| s.chars().next().unwrap());
 //! assert_eq!(groups[&'a'], vec!["apple", "apricot"]);

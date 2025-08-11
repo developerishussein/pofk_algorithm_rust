@@ -13,7 +13,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::first_non_repeated::first_non_repeated;
+//! use pofk_algorithm::set_algorithms::first_non_repeated::first_non_repeated;
 //! let arr = ['a', 'b', 'c', 'a', 'b', 'd'];
 //! assert_eq!(first_non_repeated(&arr), Some('c'));
 //! ```

@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::dp_algorithms::edit_distance::*;
+//! use pofk_algorithm::dp_algorithms::edit_distance::*;
 //! let a = vec!['k', 'i', 't', 't', 'e', 'n'];
 //! let b = vec!['s', 'i', 't', 't', 'i', 'n', 'g'];
 //! assert_eq!(edit_distance(&a, &b), 3);

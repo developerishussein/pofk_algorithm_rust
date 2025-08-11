@@ -1,13 +1,13 @@
 //! Examples for all backtracking_algorithms
-use pofk_algorithms::backtracking_algorithms::n_queens::n_queens;
-use pofk_algorithms::backtracking_algorithms::sudoku_solver::solve_sudoku;
-use pofk_algorithms::backtracking_algorithms::subset_generation::subset_generation;
-use pofk_algorithms::backtracking_algorithms::permutations::permutations;
-use pofk_algorithms::backtracking_algorithms::word_search::word_search;
-use pofk_algorithms::backtracking_algorithms::combinations::combinations;
-use pofk_algorithms::backtracking_algorithms::combination_sum::combination_sum;
-use pofk_algorithms::backtracking_algorithms::letter_combinations_phone_number::letter_combinations;
-use pofk_algorithms::backtracking_algorithms::rat_in_a_maze::rat_in_a_maze;
+use pofk_algorithm::backtracking_algorithms::n_queens::n_queens;
+use pofk_algorithm::backtracking_algorithms::sudoku_solver::solve_sudoku;
+use pofk_algorithm::backtracking_algorithms::subset_generation::subset_generation;
+use pofk_algorithm::backtracking_algorithms::permutations::permutations;
+use pofk_algorithm::backtracking_algorithms::word_search::word_search;
+use pofk_algorithm::backtracking_algorithms::combinations::combinations;
+use pofk_algorithm::backtracking_algorithms::combination_sum::combination_sum;
+use pofk_algorithm::backtracking_algorithms::letter_combinations_phone_number::letter_combinations;
+use pofk_algorithm::backtracking_algorithms::rat_in_a_maze::rat_in_a_maze;
 
 fn main() {
     // N-Queens

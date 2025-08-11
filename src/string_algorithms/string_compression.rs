@@ -10,7 +10,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::string_algorithms::string_compression::string_compression;
+//! use pofk_algorithm::string_algorithms::string_compression::string_compression;
 //! assert_eq!(string_compression("aabcccccaaa"), "a2b1c5a3");
 //! assert_eq!(string_compression("abc"), "abc");
 //! ```

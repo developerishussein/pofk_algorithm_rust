@@ -14,7 +14,7 @@
 //! # Example
 //! ```rust
 //! use std::collections::HashMap;
-//! use pofk_algorithms::graph_algorithms::topological_sort::topological_sort;
+//! use pofk_algorithm::graph_algorithms::topological_sort::topological_sort;
 //! let mut graph = HashMap::new();
 //! graph.insert(5, vec![2, 0]);
 //! graph.insert(4, vec![0, 1]);

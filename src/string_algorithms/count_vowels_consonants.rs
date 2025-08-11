@@ -10,7 +10,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::string_algorithms::count_vowels_consonants::count_vowels_consonants;
+//! use pofk_algorithm::string_algorithms::count_vowels_consonants::count_vowels_consonants;
 //! assert_eq!(count_vowels_consonants("hello world"), (3, 7));
 //! assert_eq!(count_vowels_consonants("a😊b"), (1, 1));
 //! ```

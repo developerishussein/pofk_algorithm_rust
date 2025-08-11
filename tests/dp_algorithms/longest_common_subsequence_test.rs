@@ -1,4 +1,4 @@
-use pofk_algorithms::dp_algorithms::longest_common_subsequence::longest_common_subsequence;
+use pofk_algorithm::dp_algorithms::longest_common_subsequence::longest_common_subsequence;
 
 #[test]
 fn test_lcs_large() {

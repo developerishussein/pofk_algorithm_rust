@@ -1,4 +1,4 @@
-use pofk_algorithms::dp_algorithms::rod_cutting::rod_cutting;
+use pofk_algorithm::dp_algorithms::rod_cutting::rod_cutting;
 
 #[test]
 fn test_rod_cutting_large() {

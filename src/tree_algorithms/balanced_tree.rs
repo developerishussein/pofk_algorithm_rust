@@ -7,8 +7,8 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::tree_algorithms::binary_tree_traversal::TreeNode;
-//! use pofk_algorithms::tree_algorithms::balanced_tree::*;
+//! use pofk_algorithm::tree_algorithms::binary_tree_traversal::TreeNode;
+//! use pofk_algorithm::tree_algorithms::balanced_tree::*;
 //! let root = Some(Box::new(TreeNode::new(1)));
 //! let balanced = is_balanced(&root);
 //! ```

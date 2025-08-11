@@ -13,7 +13,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::list_algorithms::find_duplicates::find_duplicates;
+//! use pofk_algorithm::list_algorithms::find_duplicates::find_duplicates;
 //! let arr = [1, 2, 2, 3, 4, 4, 4, 5];
 //! let mut dups = find_duplicates(&arr);
 //! dups.sort();

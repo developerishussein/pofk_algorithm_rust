@@ -7,8 +7,8 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::tree_algorithms::binary_tree_traversal::TreeNode;
-//! use pofk_algorithms::tree_algorithms::serialize_deserialize::*;
+//! use pofk_algorithm::tree_algorithms::binary_tree_traversal::TreeNode;
+//! use pofk_algorithm::tree_algorithms::serialize_deserialize::*;
 //! let root = Some(Box::new(TreeNode::new(1)));
 //! let data = serialize(&root);
 //! let tree = deserialize(&data);

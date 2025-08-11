@@ -7,8 +7,8 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::tree_algorithms::binary_tree_traversal::TreeNode;
-//! use pofk_algorithms::tree_algorithms::lowest_common_ancestor::*;
+//! use pofk_algorithm::tree_algorithms::binary_tree_traversal::TreeNode;
+//! use pofk_algorithm::tree_algorithms::lowest_common_ancestor::*;
 //! let root = Some(Box::new(TreeNode::new(1)));
 //! let lca = lowest_common_ancestor(&root, &2, &3);
 //! ```

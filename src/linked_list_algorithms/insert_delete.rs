@@ -7,8 +7,8 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::linked_list_algorithms::insert_delete::*;
-//! use pofk_algorithms::linked_list_algorithms::singly_linked_list::{ListNode, traverse};
+//! use pofk_algorithm::linked_list_algorithms::insert_delete::*;
+//! use pofk_algorithm::linked_list_algorithms::singly_linked_list::{ListNode, traverse};
 //! let mut head = Some(Box::new(ListNode::new(1)));
 //! insert_at(&mut head, 1, 2);
 //! assert_eq!(traverse(&head), vec![1, 2]);

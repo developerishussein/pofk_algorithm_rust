@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::dp_algorithms::longest_increasing_subsequence::*;
+//! use pofk_algorithm::dp_algorithms::longest_increasing_subsequence::*;
 //! let arr = vec![10, 9, 2, 5, 3, 7, 101, 18];
 //! assert_eq!(longest_increasing_subsequence(&arr), 4);
 //! ```

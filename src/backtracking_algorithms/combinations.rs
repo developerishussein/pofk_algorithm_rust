@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::backtracking_algorithms::combinations::*;
+//! use pofk_algorithm::backtracking_algorithms::combinations::*;
 //! let nums = vec![1, 2, 3, 4];
 //! let combs = combinations(&nums, 2);
 //! assert_eq!(combs.len(), 6);

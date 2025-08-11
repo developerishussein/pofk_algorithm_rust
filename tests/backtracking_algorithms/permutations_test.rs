@@ -1,4 +1,4 @@
-use pofk_algorithms::backtracking_algorithms::permutations::permutations;
+use pofk_algorithm::backtracking_algorithms::permutations::permutations;
 
 #[test]
 fn test_permutations_large() {

@@ -10,7 +10,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::string_algorithms::longest_palindromic_substring::longest_palindromic_substring;
+//! use pofk_algorithm::string_algorithms::longest_palindromic_substring::longest_palindromic_substring;
 //! assert_eq!(longest_palindromic_substring("babad"), "bab"); // or "aba"
 //! assert_eq!(longest_palindromic_substring("cbbd"), "bb");
 //! assert_eq!(longest_palindromic_substring("a"), "a");

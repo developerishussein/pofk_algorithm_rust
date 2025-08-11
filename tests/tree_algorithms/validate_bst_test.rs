@@ -1,6 +1,6 @@
 // Tests for Validate BST
-use pofk_algorithms::tree_algorithms::binary_tree_traversal::*;
-use pofk_algorithms::tree_algorithms::validate_bst::validate_bst;
+use pofk_algorithm::tree_algorithms::binary_tree_traversal::*;
+use pofk_algorithm::tree_algorithms::validate_bst::validate_bst;
 
 fn make_bst() -> Option<Box<TreeNode<i32>>> {
     //      2

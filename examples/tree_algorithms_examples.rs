@@ -1,14 +1,14 @@
 //! Examples for all tree_algorithms
-use pofk_algorithms::tree_algorithms::binary_tree_traversal::{TreeNode, inorder_traversal, preorder_traversal, postorder_traversal};
-use pofk_algorithms::tree_algorithms::diameter_of_tree::diameter_of_tree;
-use pofk_algorithms::tree_algorithms::balanced_tree::is_balanced;
-use pofk_algorithms::tree_algorithms::level_order_traversal::level_order_traversal;
-use pofk_algorithms::tree_algorithms::lowest_common_ancestor::lowest_common_ancestor;
-use pofk_algorithms::tree_algorithms::invert_tree::invert_tree;
-use pofk_algorithms::tree_algorithms::zigzag_traversal::zigzag_traversal;
-use pofk_algorithms::tree_algorithms::validate_bst::validate_bst;
-use pofk_algorithms::tree_algorithms::tree_depth::tree_depth;
-use pofk_algorithms::tree_algorithms::serialize_deserialize::{serialize, deserialize};
+use pofk_algorithm::tree_algorithms::binary_tree_traversal::{TreeNode, inorder_traversal, preorder_traversal, postorder_traversal};
+use pofk_algorithm::tree_algorithms::diameter_of_tree::diameter_of_tree;
+use pofk_algorithm::tree_algorithms::balanced_tree::is_balanced;
+use pofk_algorithm::tree_algorithms::level_order_traversal::level_order_traversal;
+use pofk_algorithm::tree_algorithms::lowest_common_ancestor::lowest_common_ancestor;
+use pofk_algorithm::tree_algorithms::invert_tree::invert_tree;
+use pofk_algorithm::tree_algorithms::zigzag_traversal::zigzag_traversal;
+use pofk_algorithm::tree_algorithms::validate_bst::validate_bst;
+use pofk_algorithm::tree_algorithms::tree_depth::tree_depth;
+use pofk_algorithm::tree_algorithms::serialize_deserialize::{serialize, deserialize};
 
 fn main() {
     // Build a simple tree:   1

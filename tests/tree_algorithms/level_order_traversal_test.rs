@@ -1,6 +1,6 @@
 // Tests for Level Order (BFS) Traversal
-use pofk_algorithms::tree_algorithms::binary_tree_traversal::*;
-use pofk_algorithms::tree_algorithms::level_order_traversal::level_order_traversal;
+use pofk_algorithm::tree_algorithms::binary_tree_traversal::*;
+use pofk_algorithm::tree_algorithms::level_order_traversal::level_order_traversal;
 
 fn make_test_tree() -> Option<Box<TreeNode<i32>>> {
     //      1

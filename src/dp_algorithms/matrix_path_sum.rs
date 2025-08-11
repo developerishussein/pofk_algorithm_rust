@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::dp_algorithms::matrix_path_sum::*;
+//! use pofk_algorithm::dp_algorithms::matrix_path_sum::*;
 //! let matrix = vec![vec![1,3,1], vec![1,5,1], vec![4,2,1]];
 //! assert_eq!(matrix_path_sum(&matrix), 7);
 //! ```

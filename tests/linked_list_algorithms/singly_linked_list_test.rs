@@ -1,5 +1,5 @@
 // Tests for Singly Linked List Traversal
-use pofk_algorithms::linked_list_algorithms::singly_linked_list::*;
+use pofk_algorithm::linked_list_algorithms::singly_linked_list::*;
 
 #[test]
 fn test_traverse() {

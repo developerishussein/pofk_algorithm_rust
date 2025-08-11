@@ -7,8 +7,8 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::linked_list_algorithms::intersection::*;
-//! use pofk_algorithms::linked_list_algorithms::singly_linked_list::ListNode;
+//! use pofk_algorithm::linked_list_algorithms::intersection::*;
+//! use pofk_algorithm::linked_list_algorithms::singly_linked_list::ListNode;
 //! let mut a = Some(Box::new(ListNode::new(1)));
 //! let mut b = Some(Box::new(ListNode::new(2)));
 //! assert!(intersection(&a, &b).is_none());

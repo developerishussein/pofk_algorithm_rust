@@ -10,7 +10,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::list_algorithms::reverse_list::reverse_list;
+//! use pofk_algorithm::list_algorithms::reverse_list::reverse_list;
 //! let mut arr = [1, 2, 3, 4, 5];
 //! reverse_list(&mut arr);
 //! assert_eq!(arr, [5, 4, 3, 2, 1]);

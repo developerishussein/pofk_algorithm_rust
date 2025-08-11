@@ -2,10 +2,10 @@
 // This file demonstrates all new algorithms in a single Rust main function.
 // You can run this as a Rust binary, or adapt the code for FFI/WebAssembly integration.
 
-use pofk_algorithms::graph_algorithms::kruskal::kruskal;
-use pofk_algorithms::graph_algorithms::prim::prim;
-use pofk_algorithms::graph_algorithms::kosaraju_scc::kosaraju_scc;
-use pofk_algorithms::graph_algorithms::articulation_points::articulation_points;
+use pofk_algorithm::graph_algorithms::kruskal::kruskal;
+use pofk_algorithm::graph_algorithms::prim::prim;
+use pofk_algorithm::graph_algorithms::kosaraju_scc::kosaraju_scc;
+use pofk_algorithm::graph_algorithms::articulation_points::articulation_points;
 
 fn main() {
     use std::collections::HashMap;
@@ -51,11 +51,11 @@ fn main() {
     graph.insert(2, vec![4]);
     graph.insert(3, vec![]);
     graph.insert(4, vec![]);
-    let dfs_order = pofk_algorithms::graph_algorithms::dfs::dfs(&graph, 1);
+    let dfs_order = pofk_algorithm::graph_algorithms::dfs::dfs(&graph, 1);
     println!("DFS order: {:?}", dfs_order);
 
     // BFS
-    let bfs_order = pofk_algorithms::graph_algorithms::bfs::bfs(&graph, 1);
+    let bfs_order = pofk_algorithm::graph_algorithms::bfs::bfs(&graph, 1);
     println!("BFS order: {:?}", bfs_order);
 
     // Dijkstra
@@ -64,7 +64,7 @@ fn main() {
     wgraph.insert(2, vec![(3, 2), (4, 5)]);
     wgraph.insert(3, vec![(4, 1)]);
     wgraph.insert(4, vec![]);
-    let dist = pofk_algorithms::graph_algorithms::dijkstra::dijkstra(&wgraph, 1);
+    let dist = pofk_algorithm::graph_algorithms::dijkstra::dijkstra(&wgraph, 1);
     println!("Dijkstra distances: {:?}", dist);
 
     // Bellman-Ford
@@ -73,7 +73,7 @@ fn main() {
     bf_graph.insert(2, vec![(3, -2), (4, 5)]);
     bf_graph.insert(3, vec![(4, 1)]);
     bf_graph.insert(4, vec![]);
-    let bf_dist = pofk_algorithms::graph_algorithms::bellman_ford::bellman_ford(&bf_graph, 1);
+    let bf_dist = pofk_algorithm::graph_algorithms::bellman_ford::bellman_ford(&bf_graph, 1);
     println!("Bellman-Ford distances: {:?}", bf_dist);
 
     // Floyd-Warshall
@@ -84,7 +84,7 @@ fn main() {
         (1, 3, 4),
         (3, 4, 1),
     ];
-    let fw_dist = pofk_algorithms::graph_algorithms::floyd_warshall::floyd_warshall(&nodes_fw, &edges_fw);
+    let fw_dist = pofk_algorithm::graph_algorithms::floyd_warshall::floyd_warshall(&nodes_fw, &edges_fw);
     println!("Floyd-Warshall distances: {:?}", fw_dist);
 
     // Topological Sort
@@ -95,11 +95,11 @@ fn main() {
     dag.insert(3, vec![1]);
     dag.insert(0, vec![]);
     dag.insert(1, vec![]);
-    let topo = pofk_algorithms::graph_algorithms::topological_sort::topological_sort(&dag);
+    let topo = pofk_algorithm::graph_algorithms::topological_sort::topological_sort(&dag);
     println!("Topological sort: {:?}", topo);
 
     // Union-Find
-    let mut uf = pofk_algorithms::graph_algorithms::union_find::UnionFind::new();
+    let mut uf = pofk_algorithm::graph_algorithms::union_find::UnionFind::new();
     uf.add(1); uf.add(2); uf.add(3);
     uf.union(1, 2);
     println!("Union-Find connected(1,2): {}", uf.connected(1, 2));
@@ -111,7 +111,7 @@ fn main() {
     cc_graph.insert(2, vec![1]);
     cc_graph.insert(3, vec![4]);
     cc_graph.insert(4, vec![3]);
-    let mut comps = pofk_algorithms::graph_algorithms::connected_components::connected_components(&cc_graph);
+    let mut comps = pofk_algorithm::graph_algorithms::connected_components::connected_components(&cc_graph);
     for comp in &mut comps { comp.sort(); }
     comps.sort();
     println!("Connected components: {:?}", comps);
@@ -121,9 +121,9 @@ fn main() {
     cycle_graph.insert(1, vec![2]);
     cycle_graph.insert(2, vec![3]);
     cycle_graph.insert(3, vec![1]);
-    println!("Has cycle: {}", pofk_algorithms::graph_algorithms::cycle_detection::has_cycle(&cycle_graph));
+    println!("Has cycle: {}", pofk_algorithm::graph_algorithms::cycle_detection::has_cycle(&cycle_graph));
     cycle_graph.insert(3, vec![]);
-    println!("Has cycle (after removal): {}", pofk_algorithms::graph_algorithms::cycle_detection::has_cycle(&cycle_graph));
+    println!("Has cycle (after removal): {}", pofk_algorithm::graph_algorithms::cycle_detection::has_cycle(&cycle_graph));
 
     // Bipartite Graph
     let mut bipartite_graph = HashMap::new();
@@ -131,7 +131,7 @@ fn main() {
     bipartite_graph.insert(2, vec![1, 4]);
     bipartite_graph.insert(3, vec![1, 4]);
     bipartite_graph.insert(4, vec![2, 3]);
-    println!("Is bipartite: {}", pofk_algorithms::graph_algorithms::bipartite_graph::is_bipartite(&bipartite_graph));
+    println!("Is bipartite: {}", pofk_algorithm::graph_algorithms::bipartite_graph::is_bipartite(&bipartite_graph));
     bipartite_graph.insert(4, vec![2, 3, 1]);
-    println!("Is bipartite (after making non-bipartite): {}", pofk_algorithms::graph_algorithms::bipartite_graph::is_bipartite(&bipartite_graph));
+    println!("Is bipartite (after making non-bipartite): {}", pofk_algorithm::graph_algorithms::bipartite_graph::is_bipartite(&bipartite_graph));
 }

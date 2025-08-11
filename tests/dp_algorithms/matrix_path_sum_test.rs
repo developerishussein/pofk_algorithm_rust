@@ -1,4 +1,4 @@
-use pofk_algorithms::dp_algorithms::matrix_path_sum::matrix_path_sum;
+use pofk_algorithm::dp_algorithms::matrix_path_sum::matrix_path_sum;
 
 #[test]
 fn test_matrix_path_sum_large() {

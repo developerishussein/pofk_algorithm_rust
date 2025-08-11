@@ -16,7 +16,7 @@
 //! # Example
 //! ```rust
 //! use std::collections::HashMap;
-//! use pofk_algorithms::graph_algorithms::dijkstra::dijkstra;
+//! use pofk_algorithm::graph_algorithms::dijkstra::dijkstra;
 //! let mut graph = HashMap::new();
 //! graph.insert(1, vec![(2, 1), (3, 4)]);
 //! graph.insert(2, vec![(3, 2), (4, 5)]);

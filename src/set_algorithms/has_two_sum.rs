@@ -14,7 +14,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::has_two_sum::has_two_sum;
+//! use pofk_algorithm::set_algorithms::has_two_sum::has_two_sum;
 //! let arr = [1, 2, 3, 4];
 //! assert!(has_two_sum(&arr, 5));
 //! assert!(!has_two_sum(&arr, 10));

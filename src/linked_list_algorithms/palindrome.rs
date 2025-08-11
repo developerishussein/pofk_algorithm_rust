@@ -7,8 +7,8 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::linked_list_algorithms::palindrome::*;
-//! use pofk_algorithms::linked_list_algorithms::singly_linked_list::ListNode;
+//! use pofk_algorithm::linked_list_algorithms::palindrome::*;
+//! use pofk_algorithm::linked_list_algorithms::singly_linked_list::ListNode;
 //! let mut head = Some(Box::new(ListNode::new(1)));
 //! head.as_mut().unwrap().next = Some(Box::new(ListNode::new(2)));
 //! head.as_mut().unwrap().next.as_mut().unwrap().next = Some(Box::new(ListNode::new(1)));

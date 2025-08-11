@@ -13,7 +13,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::most_frequent_element::most_frequent_element;
+//! use pofk_algorithm::set_algorithms::most_frequent_element::most_frequent_element;
 //! let arr = [1, 2, 2, 3, 3, 3, 4];
 //! assert_eq!(most_frequent_element(&arr), Some(3));
 //! ```

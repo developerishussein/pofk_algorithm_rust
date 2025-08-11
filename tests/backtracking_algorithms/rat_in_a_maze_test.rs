@@ -1,4 +1,4 @@
-use pofk_algorithms::backtracking_algorithms::rat_in_a_maze::rat_in_a_maze;
+use pofk_algorithm::backtracking_algorithms::rat_in_a_maze::rat_in_a_maze;
 
 #[test]
 fn test_rat_in_a_maze_large() {

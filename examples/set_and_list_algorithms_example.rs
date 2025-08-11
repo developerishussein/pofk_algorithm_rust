@@ -1,8 +1,8 @@
-//! Example usage of advanced set and list algorithms from the pofk_algorithms library.
+//! Example usage of advanced set and list algorithms from the pofk_algorithm library.
 //!
 //! This file demonstrates how to use each algorithm with idiomatic, production-grade Rust code.
 
-use pofk_algorithms::list_algorithms::{
+use pofk_algorithm::list_algorithms::{
     find_duplicates::find_duplicates,
     prefix_sum::prefix_sum,
     remove_duplicates::remove_duplicates,
@@ -10,7 +10,7 @@ use pofk_algorithms::list_algorithms::{
     sliding_window::sliding_window_max_sum,
     kadanes_algorithm::kadane,
 };
-use pofk_algorithms::set_algorithms::{
+use pofk_algorithm::set_algorithms::{
     has_duplicates::has_duplicates,
     find_union::find_union,
     find_intersection::find_intersection,

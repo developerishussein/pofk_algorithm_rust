@@ -1,6 +1,6 @@
 // Tests for Lowest Common Ancestor
-use pofk_algorithms::tree_algorithms::binary_tree_traversal::*;
-use pofk_algorithms::tree_algorithms::lowest_common_ancestor::lowest_common_ancestor;
+use pofk_algorithm::tree_algorithms::binary_tree_traversal::*;
+use pofk_algorithm::tree_algorithms::lowest_common_ancestor::lowest_common_ancestor;
 
 fn make_test_tree() -> Option<Box<TreeNode<i32>>> {
     //      1

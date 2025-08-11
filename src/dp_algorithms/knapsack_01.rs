@@ -8,7 +8,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::dp_algorithms::knapsack_01::*;
+//! use pofk_algorithm::dp_algorithms::knapsack_01::*;
 //! let weights = vec![2usize, 3, 4, 5];
 //! let values = vec![3usize, 4, 5, 6];
 //! let capacity = 5usize;

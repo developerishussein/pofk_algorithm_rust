@@ -1,5 +1,5 @@
 
-use pofk_algorithms::list_algorithms::*;
+use pofk_algorithm::list_algorithms::*;
 
 fn main() {
     // Linear Search

@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::dp_algorithms::longest_common_subsequence::*;
+//! use pofk_algorithm::dp_algorithms::longest_common_subsequence::*;
 //! let a = vec!['A', 'B', 'C', 'D', 'G', 'H'];
 //! let b = vec!['A', 'E', 'D', 'F', 'H', 'R'];
 //! assert_eq!(longest_common_subsequence(&a, &b), 3);

@@ -14,7 +14,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::list_algorithms::two_pointers_sum;
+//! use pofk_algorithm::list_algorithms::two_pointers_sum;
 //! let arr = [1, 2, 3, 4, 6];
 //! assert_eq!(two_pointers_sum(&arr, 6), Some((1, 3)));
 //! ```

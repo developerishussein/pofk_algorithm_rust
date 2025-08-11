@@ -4,7 +4,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::matrix_algorithms::shortest_path_grid::*;
+//! use pofk_algorithm::matrix_algorithms::shortest_path_grid::*;
 //! let grid = vec![vec![0,0,0], vec![1,1,0], vec![0,0,0]];
 //! assert_eq!(shortest_path_grid(&grid, (0,0), (2,2)), Some(4));
 //! ```

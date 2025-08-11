@@ -1,4 +1,4 @@
-use pofk_algorithms::dp_algorithms::subset_sum::subset_sum;
+use pofk_algorithm::dp_algorithms::subset_sum::subset_sum;
 
 #[test]
 fn test_subset_sum_large() {

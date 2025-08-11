@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::backtracking_algorithms::rat_in_a_maze::*;
+//! use pofk_algorithm::backtracking_algorithms::rat_in_a_maze::*;
 //! let maze = vec![vec![1,0,0,0], vec![1,1,0,1], vec![0,1,0,0], vec![1,1,1,1]];
 //! let paths = rat_in_a_maze(&maze);
 //! assert!(!paths.is_empty());

@@ -1,4 +1,4 @@
-use pofk_algorithms::dp_algorithms::knapsack_01::knapsack_01;
+use pofk_algorithm::dp_algorithms::knapsack_01::knapsack_01;
 
 #[test]
 fn test_knapsack_01_large() {

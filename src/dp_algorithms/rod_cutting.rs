@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::dp_algorithms::rod_cutting::*;
+//! use pofk_algorithm::dp_algorithms::rod_cutting::*;
 //! let prices = vec![1, 5, 8, 9, 10, 17, 17, 20];
 //! let n = 8;
 //! assert_eq!(rod_cutting(&prices, n), 22);

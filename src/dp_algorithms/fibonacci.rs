@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::dp_algorithms::fibonacci::*;
+//! use pofk_algorithm::dp_algorithms::fibonacci::*;
 //! assert_eq!(fibonacci::<u64>(10), 55);
 //! ```
 use std::collections::HashMap;

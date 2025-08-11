@@ -1,6 +1,6 @@
 // Tests for Invert Binary Tree
-use pofk_algorithms::tree_algorithms::binary_tree_traversal::*;
-use pofk_algorithms::tree_algorithms::invert_tree::invert_tree;
+use pofk_algorithm::tree_algorithms::binary_tree_traversal::*;
+use pofk_algorithm::tree_algorithms::invert_tree::invert_tree;
 
 fn make_test_tree() -> Option<Box<TreeNode<i32>>> {
     //      1
@@ -23,6 +23,6 @@ fn test_invert_tree() {
     invert_tree(&mut tree);
     // After invert, left and right children are swapped at every node
     // Inorder traversal should now be [3, 1, 5, 2, 4]
-    use pofk_algorithms::tree_algorithms::binary_tree_traversal::inorder_traversal;
+    use pofk_algorithm::tree_algorithms::binary_tree_traversal::inorder_traversal;
     assert_eq!(inorder_traversal(&tree), vec![3, 1, 5, 2, 4]);
 }

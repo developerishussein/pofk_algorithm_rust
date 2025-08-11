@@ -1,4 +1,4 @@
-use pofk_algorithms::dp_algorithms::jump_game::jump_game;
+use pofk_algorithm::dp_algorithms::jump_game::jump_game;
 
 #[test]
 fn test_jump_game_large() {

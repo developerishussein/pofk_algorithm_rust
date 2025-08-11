@@ -1,4 +1,4 @@
-use pofk_algorithms::dp_algorithms::partition_equal_subset_sum::partition_equal_subset_sum;
+use pofk_algorithm::dp_algorithms::partition_equal_subset_sum::partition_equal_subset_sum;
 
 #[test]
 fn test_partition_equal_subset_sum_large() {

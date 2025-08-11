@@ -16,7 +16,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::graph_algorithms::prim::prim;
+//! use pofk_algorithm::graph_algorithms::prim::prim;
 //! let nodes = [1, 2, 3, 4];
 //! let edges = [
 //!     (1, 2, 1),

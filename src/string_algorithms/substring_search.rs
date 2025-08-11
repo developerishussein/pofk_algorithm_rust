@@ -11,7 +11,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::string_algorithms::substring_search::substring_search;
+//! use pofk_algorithm::string_algorithms::substring_search::substring_search;
 //! assert_eq!(substring_search("hello world", "world"), Some(6));
 //! assert_eq!(substring_search("abc", "d"), None);
 //! assert_eq!(substring_search("a😊b😊c", "😊b"), Some(1));

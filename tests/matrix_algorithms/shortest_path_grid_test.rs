@@ -1,4 +1,4 @@
-use pofk_algorithms::matrix_algorithms::shortest_path_grid::*;
+use pofk_algorithm::matrix_algorithms::shortest_path_grid::*;
 
 #[test]
 fn test_shortest_path_basic() {

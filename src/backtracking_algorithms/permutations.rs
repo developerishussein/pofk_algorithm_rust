@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::backtracking_algorithms::permutations::*;
+//! use pofk_algorithm::backtracking_algorithms::permutations::*;
 //! let nums = vec![1, 2, 3];
 //! let perms = permutations(&nums);
 //! assert_eq!(perms.len(), 6);

@@ -11,7 +11,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::string_algorithms::rabin_karp::rabin_karp;
+//! use pofk_algorithm::string_algorithms::rabin_karp::rabin_karp;
 //! assert_eq!(rabin_karp("hello world", "world"), Some(6));
 //! assert_eq!(rabin_karp("abc", "d"), None);
 //! assert_eq!(rabin_karp("a😊b😊c", "😊b"), Some(1));

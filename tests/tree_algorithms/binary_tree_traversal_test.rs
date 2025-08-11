@@ -1,5 +1,5 @@
 // Tests for Binary Tree Traversals
-use pofk_algorithms::tree_algorithms::binary_tree_traversal::*;
+use pofk_algorithm::tree_algorithms::binary_tree_traversal::*;
 
 fn make_test_tree() -> Option<Box<TreeNode<i32>>> {
     //      1

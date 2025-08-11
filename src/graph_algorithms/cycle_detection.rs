@@ -14,7 +14,7 @@
 //! # Example
 //! ```rust
 //! use std::collections::HashMap;
-//! use pofk_algorithms::graph_algorithms::cycle_detection::has_cycle;
+//! use pofk_algorithm::graph_algorithms::cycle_detection::has_cycle;
 //! let mut graph = HashMap::new();
 //! graph.insert(1, vec![2]);
 //! graph.insert(2, vec![3]);

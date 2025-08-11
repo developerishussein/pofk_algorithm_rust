@@ -1,4 +1,4 @@
-use pofk_algorithms::backtracking_algorithms::letter_combinations_phone_number::letter_combinations;
+use pofk_algorithm::backtracking_algorithms::letter_combinations_phone_number::letter_combinations;
 
 #[test]
 fn test_letter_combinations_large() {

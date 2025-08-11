@@ -13,7 +13,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::set_difference::set_difference;
+//! use pofk_algorithm::set_algorithms::set_difference::set_difference;
 //! let a = [1, 2, 3, 4];
 //! let b = [2, 4];
 //! let diff = set_difference(&a, &b);

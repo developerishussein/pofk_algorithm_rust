@@ -14,7 +14,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::graph_algorithms::articulation_points::articulation_points;
+//! use pofk_algorithm::graph_algorithms::articulation_points::articulation_points;
 //! let nodes = [1, 2, 3, 4, 5];
 //! let edges = [
 //!     (1, 2), (2, 3), (3, 4), (4, 5), (3, 5)

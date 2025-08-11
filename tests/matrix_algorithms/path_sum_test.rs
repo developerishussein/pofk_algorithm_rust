@@ -1,4 +1,4 @@
-use pofk_algorithms::matrix_algorithms::path_sum::*;
+use pofk_algorithm::matrix_algorithms::path_sum::*;
 
 #[test]
 fn test_path_sum_true() {

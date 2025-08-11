@@ -1,6 +1,6 @@
 // Tests for Remove Nth Node From End
-use pofk_algorithms::linked_list_algorithms::singly_linked_list::*;
-use pofk_algorithms::linked_list_algorithms::remove_nth_from_end::remove_nth_from_end;
+use pofk_algorithm::linked_list_algorithms::singly_linked_list::*;
+use pofk_algorithm::linked_list_algorithms::remove_nth_from_end::remove_nth_from_end;
 
 #[test]
 fn test_remove_nth_from_end() {

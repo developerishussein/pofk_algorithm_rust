@@ -13,7 +13,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::find_intersection::find_intersection;
+//! use pofk_algorithm::set_algorithms::find_intersection::find_intersection;
 //! let a = [1, 2, 3];
 //! let b = [2, 3, 4];
 //! let mut inter = find_intersection(&a, &b);

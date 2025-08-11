@@ -14,7 +14,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::two_sum_map::two_sum_map;
+//! use pofk_algorithm::set_algorithms::two_sum_map::two_sum_map;
 //! let arr = [2, 7, 11, 15];
 //! assert_eq!(two_sum_map(&arr, 9), Some((0, 1)));
 //! assert_eq!(two_sum_map(&arr, 26), Some((2, 3)));

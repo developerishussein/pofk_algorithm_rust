@@ -1,4 +1,4 @@
-use pofk_algorithms::matrix_algorithms::word_search::*;
+use pofk_algorithm::matrix_algorithms::word_search::*;
 
 #[test]
 fn test_word_search_found() {

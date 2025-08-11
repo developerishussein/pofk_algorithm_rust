@@ -1,0 +1,23 @@
+[package]
+name = "pofk_algorithm"
+version = "0.0.1"
+edition = "2024"
+authors = ["POFKLabs <pofklabs@gmail.com>"]
+description = "A collection of efficient algorithms implemented in Rust for real-world projects."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/POFKLabs/pofk_algorithm_rust"
+keywords = ["algorithms", "data-structures", "rust", "library"]
+categories = ["algorithms", "data-structures"]
+documentation = "https://docs.rs/pofk_algorithm_rust"
+homepage = "https://pofklabs.vercel.app"
+
+[dependencies]
+num-traits = "0.2.19"
+
+[dev-dependencies]
+criterion = "*"
+
+[[bench]]
+name = "benchmark"
+harness = false

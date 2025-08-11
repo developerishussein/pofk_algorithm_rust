@@ -1,6 +1,6 @@
 // Tests for Palindrome Linked List
-use pofk_algorithms::linked_list_algorithms::singly_linked_list::*;
-use pofk_algorithms::linked_list_algorithms::palindrome::is_palindrome;
+use pofk_algorithm::linked_list_algorithms::singly_linked_list::*;
+use pofk_algorithm::linked_list_algorithms::palindrome::is_palindrome;
 
 #[test]
 fn test_is_palindrome() {

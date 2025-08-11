@@ -10,7 +10,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::string_algorithms::longest_common_prefix::longest_common_prefix;
+//! use pofk_algorithm::string_algorithms::longest_common_prefix::longest_common_prefix;
 //! let strs = ["flower", "flow", "flight"];
 //! assert_eq!(longest_common_prefix(&strs), "fl");
 //! let strs = ["dog", "racecar", "car"];

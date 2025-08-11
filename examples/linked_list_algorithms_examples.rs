@@ -1,13 +1,13 @@
 //! Examples for all linked_list_algorithms
-use pofk_algorithms::linked_list_algorithms::singly_linked_list::{ListNode, traverse};
-use pofk_algorithms::linked_list_algorithms::insert_delete::{insert_at, delete_at};
-use pofk_algorithms::linked_list_algorithms::doubly_linked_list::{DListNode, reverse_doubly};
-use pofk_algorithms::linked_list_algorithms::reverse_list::reverse_list;
-use pofk_algorithms::linked_list_algorithms::detect_cycle::has_cycle;
-use pofk_algorithms::linked_list_algorithms::merge_sorted::merge_sorted;
-use pofk_algorithms::linked_list_algorithms::remove_nth_from_end::remove_nth_from_end;
-use pofk_algorithms::linked_list_algorithms::palindrome::is_palindrome;
-use pofk_algorithms::linked_list_algorithms::intersection::intersection;
+use pofk_algorithm::linked_list_algorithms::singly_linked_list::{ListNode, traverse};
+use pofk_algorithm::linked_list_algorithms::insert_delete::{insert_at, delete_at};
+use pofk_algorithm::linked_list_algorithms::doubly_linked_list::{DListNode, reverse_doubly};
+use pofk_algorithm::linked_list_algorithms::reverse_list::reverse_list;
+use pofk_algorithm::linked_list_algorithms::detect_cycle::has_cycle;
+use pofk_algorithm::linked_list_algorithms::merge_sorted::merge_sorted;
+use pofk_algorithm::linked_list_algorithms::remove_nth_from_end::remove_nth_from_end;
+use pofk_algorithm::linked_list_algorithms::palindrome::is_palindrome;
+use pofk_algorithm::linked_list_algorithms::intersection::intersection;
 
 fn main() {
     // Singly linked list: 1 -> 2

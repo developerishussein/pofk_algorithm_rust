@@ -4,7 +4,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::backtracking_algorithms::sudoku_solver::*;
+//! use pofk_algorithm::backtracking_algorithms::sudoku_solver::*;
 //! let mut board = [
 //!     ['5','3','.','.','7','.','.','.','.'],
 //!     ['6','.','.','1','9','5','.','.','.'],

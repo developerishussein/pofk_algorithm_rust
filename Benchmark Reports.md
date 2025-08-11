@@ -1,6 +1,6 @@
 # Benchmark Reports
 
-This document contains benchmark results for the entire `pofk_algorithms` Rust library, including execution time and memory usage for representative algorithms in each module.
+This document contains benchmark results for the entire `pofk_algorithm` Rust library, including execution time and memory usage for representative algorithms in each module.
 
 ## How to Run Benchmarks
 

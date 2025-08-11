@@ -4,7 +4,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::matrix_algorithms::island_count::*;
+//! use pofk_algorithm::matrix_algorithms::island_count::*;
 //! let grid = vec![vec![1,1,0,0,0], vec![1,1,0,0,0], vec![0,0,1,0,0], vec![0,0,0,1,1]];
 //! assert_eq!(island_count(&grid), 3);
 //! ```

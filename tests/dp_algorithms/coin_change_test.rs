@@ -1,4 +1,4 @@
-use pofk_algorithms::dp_algorithms::coin_change::coin_change;
+use pofk_algorithm::dp_algorithms::coin_change::coin_change;
 
 #[test]
 fn test_coin_change_large() {

@@ -14,7 +14,7 @@
 //! # Example
 //! ```rust
 //! use std::collections::HashMap;
-//! use pofk_algorithms::graph_algorithms::connected_components::connected_components;
+//! use pofk_algorithm::graph_algorithms::connected_components::connected_components;
 //! let mut graph = HashMap::new();
 //! graph.insert(1, vec![2]);
 //! graph.insert(2, vec![1]);

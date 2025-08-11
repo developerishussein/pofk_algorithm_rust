@@ -9,7 +9,7 @@ use std::ops::Add;
 ///
 /// # Example
 /// ```rust
-/// use pofk_algorithms::dp_algorithms::jump_game::*;
+/// use pofk_algorithm::dp_algorithms::jump_game::*;
 /// let nums = vec![2,3,1,1,4];
 /// assert!(jump_game(&nums));
 /// ```

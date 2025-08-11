@@ -7,8 +7,8 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::tree_algorithms::binary_tree_traversal::TreeNode;
-//! use pofk_algorithms::tree_algorithms::level_order_traversal::*;
+//! use pofk_algorithm::tree_algorithms::binary_tree_traversal::TreeNode;
+//! use pofk_algorithm::tree_algorithms::level_order_traversal::*;
 //! let root = Some(Box::new(TreeNode::new(1)));
 //! let levels = level_order_traversal(&root);
 //! ```

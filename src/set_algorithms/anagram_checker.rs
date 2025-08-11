@@ -14,7 +14,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::anagram_checker::anagram_checker;
+//! use pofk_algorithm::set_algorithms::anagram_checker::anagram_checker;
 //! let a = ["a", "b", "c"];
 //! let b = ["c", "b", "a"];
 //! assert!(anagram_checker(&a, &b));

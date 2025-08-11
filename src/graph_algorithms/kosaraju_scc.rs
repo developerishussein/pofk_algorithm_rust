@@ -14,7 +14,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::graph_algorithms::kosaraju_scc::kosaraju_scc;
+//! use pofk_algorithm::graph_algorithms::kosaraju_scc::kosaraju_scc;
 //! let nodes = [1, 2, 3, 4, 5];
 //! let edges = [
 //!     (1, 2), (2, 3), (3, 1),

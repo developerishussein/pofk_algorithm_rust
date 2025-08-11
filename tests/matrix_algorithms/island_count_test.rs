@@ -1,4 +1,4 @@
-use pofk_algorithms::matrix_algorithms::island_count::*;
+use pofk_algorithm::matrix_algorithms::island_count::*;
 
 #[test]
 fn test_island_count_basic() {

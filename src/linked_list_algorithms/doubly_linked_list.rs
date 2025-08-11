@@ -10,7 +10,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::linked_list_algorithms::doubly_linked_list::*;
+//! use pofk_algorithm::linked_list_algorithms::doubly_linked_list::*;
 //! let mut head = Some(Box::new(DListNode::new(1)));
 //! head.as_mut().unwrap().next = Some(Box::new(DListNode::new(2)));
 //! head.as_mut().unwrap().next.as_mut().unwrap().prev = Some(head.as_mut().unwrap().as_mut() as *mut _);

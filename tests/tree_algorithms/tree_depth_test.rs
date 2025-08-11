@@ -1,6 +1,6 @@
 // Tests for Depth of Binary Tree
-use pofk_algorithms::tree_algorithms::binary_tree_traversal::*;
-use pofk_algorithms::tree_algorithms::tree_depth::tree_depth;
+use pofk_algorithm::tree_algorithms::binary_tree_traversal::*;
+use pofk_algorithm::tree_algorithms::tree_depth::tree_depth;
 
 fn make_test_tree() -> Option<Box<TreeNode<i32>>> {
     //      1

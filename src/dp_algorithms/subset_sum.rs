@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::dp_algorithms::subset_sum::*;
+//! use pofk_algorithm::dp_algorithms::subset_sum::*;
 //! let set = vec![3usize, 34, 4, 12, 5, 2];
 //! assert!(subset_sum(&set, 9usize));
 //! ```

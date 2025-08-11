@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::tree_algorithms::binary_tree_traversal::*;
+//! use pofk_algorithm::tree_algorithms::binary_tree_traversal::*;
 //! let root = Some(Box::new(TreeNode::new(1)));
 //! let inorder = inorder_traversal(&root);
 //! let preorder = preorder_traversal(&root);

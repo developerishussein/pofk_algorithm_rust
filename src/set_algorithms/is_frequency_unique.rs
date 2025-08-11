@@ -13,7 +13,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::set_algorithms::is_frequency_unique::is_frequency_unique;
+//! use pofk_algorithm::set_algorithms::is_frequency_unique::is_frequency_unique;
 //! let arr = [1, 2, 2, 3, 3, 3];
 //! assert!(is_frequency_unique(&arr));
 //! let arr = [1, 2, 2, 3, 3];

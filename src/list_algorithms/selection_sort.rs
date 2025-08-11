@@ -10,7 +10,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::list_algorithms::selection_sort::selection_sort;
+//! use pofk_algorithm::list_algorithms::selection_sort::selection_sort;
 //! let mut arr = [64, 25, 12, 22, 11];
 //! selection_sort(&mut arr);
 //! assert_eq!(arr, [11, 12, 22, 25, 64]);

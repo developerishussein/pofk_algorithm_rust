@@ -1,4 +1,4 @@
-use pofk_algorithms::dp_algorithms::house_robber::house_robber;
+use pofk_algorithm::dp_algorithms::house_robber::house_robber;
 
 #[test]
 fn test_house_robber_large() {

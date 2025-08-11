@@ -13,7 +13,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::list_algorithms::kadanes_algorithm::kadane;
+//! use pofk_algorithm::list_algorithms::kadanes_algorithm::kadane;
 //! let arr = [1, -2, 3, 4, -1, 2, 1, -5, 4];
 //! assert_eq!(kadane(&arr), Some(9));
 //! ```

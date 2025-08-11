@@ -13,7 +13,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::list_algorithms::remove_duplicates::remove_duplicates;
+//! use pofk_algorithm::list_algorithms::remove_duplicates::remove_duplicates;
 //! let arr = [1, 2, 2, 3, 4, 4, 5];
 //! let unique = remove_duplicates(&arr);
 //! assert_eq!(unique, vec![1, 2, 3, 4, 5]);

@@ -16,7 +16,7 @@
 //! # Example
 //! ```rust
 //! use std::collections::HashMap;
-//! use pofk_algorithms::graph_algorithms::floyd_warshall::floyd_warshall;
+//! use pofk_algorithm::graph_algorithms::floyd_warshall::floyd_warshall;
 //! let nodes = [1, 2, 3, 4];
 //! let edges = [
 //!     (1, 2, 1),

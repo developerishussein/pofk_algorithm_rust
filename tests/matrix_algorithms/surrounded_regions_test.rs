@@ -1,4 +1,4 @@
-use pofk_algorithms::matrix_algorithms::surrounded_regions::*;
+use pofk_algorithm::matrix_algorithms::surrounded_regions::*;
 
 #[test]
 fn test_surrounded_regions() {

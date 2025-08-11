@@ -1,4 +1,4 @@
-use pofk_algorithms::dp_algorithms::edit_distance::edit_distance;
+use pofk_algorithm::dp_algorithms::edit_distance::edit_distance;
 
 #[test]
 fn test_edit_distance_large() {

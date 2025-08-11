@@ -1,4 +1,4 @@
-use pofk_algorithms::dp_algorithms::fibonacci::fibonacci;
+use pofk_algorithm::dp_algorithms::fibonacci::fibonacci;
 
 #[test]
 fn test_fibonacci_large() {

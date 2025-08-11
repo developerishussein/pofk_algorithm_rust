@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::dp_algorithms::coin_change::*;
+//! use pofk_algorithm::dp_algorithms::coin_change::*;
 //! let coins = vec![1usize, 2, 5];
 //! let amount = 11usize;
 //! assert_eq!(coin_change(&coins, amount), 3); // 11 = 5+5+1

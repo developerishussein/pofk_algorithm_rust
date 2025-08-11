@@ -10,7 +10,7 @@
 //!
 //! # Example
 //! ```rust
-//! use pofk_algorithms::string_algorithms::palindrome_check::palindrome_check;
+//! use pofk_algorithm::string_algorithms::palindrome_check::palindrome_check;
 //! assert!(palindrome_check("racecar"));
 //! assert!(palindrome_check("a😊a"));
 //! assert!(!palindrome_check("hello"));

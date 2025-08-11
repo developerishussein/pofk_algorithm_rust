@@ -1,6 +1,6 @@
 // Tests for Balanced Binary Tree
-use pofk_algorithms::tree_algorithms::binary_tree_traversal::*;
-use pofk_algorithms::tree_algorithms::balanced_tree::is_balanced;
+use pofk_algorithm::tree_algorithms::binary_tree_traversal::*;
+use pofk_algorithm::tree_algorithms::balanced_tree::is_balanced;
 
 fn make_balanced_tree() -> Option<Box<TreeNode<i32>>> {
     //      1

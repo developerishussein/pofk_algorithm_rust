@@ -15,7 +15,7 @@
 //! # Example
 //! ```rust
 //! use std::collections::HashMap;
-//! use pofk_algorithms::graph_algorithms::dfs::dfs;
+//! use pofk_algorithm::graph_algorithms::dfs::dfs;
 //! let mut graph = HashMap::new();
 //! graph.insert(1, vec![2, 3]);
 //! graph.insert(2, vec![4]);
