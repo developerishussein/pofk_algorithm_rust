@@ -21,10 +21,9 @@ Add to your `Cargo.toml`:
 ```toml
 [dependencies]
 pofk_algorithm = "0.0.1"
-
-use pofk_algorithm::*;
 ```
-///
+use pofk_algorithm::*;
+
 use pofk_algorithm::{
     list_algorithms::{binary_search, merge_sort},
     string_algorithms::{is_palindrome, longest_common_prefix},
