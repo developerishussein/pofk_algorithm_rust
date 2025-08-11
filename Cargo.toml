@@ -16,7 +16,7 @@ homepage = "https://pofklabs.vercel.app"
 num-traits = "0.2.19"
 
 [dev-dependencies]
-criterion = "*"
+criterion = "0.4"
 
 [[bench]]
 name = "benchmark"
